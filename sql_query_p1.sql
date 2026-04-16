@@ -4,7 +4,7 @@ CREATE DATABASE sql_project_p2;
 
 -- Create TABLE
 DROP TABLE IF EXISTS retail_sales;
-CREATE TABLE retail_sales
+CREATE TABLE retail_sales 
             (
                 transaction_id INT PRIMARY KEY,	
                 sale_date DATE,	 
